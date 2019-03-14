@@ -15,13 +15,10 @@
       position: relative;
     }
 
-    img {
+    header img {
       position: absolute;
       top: 50%;
       left: 50%;
-    }
-
-    header img {
       margin: -112px 0 0 -304px;
     }
 
@@ -31,8 +28,19 @@
       position: relative;
     }
 
-    section img {
+    section img#upcoming {
+      position: absolute;
+      top: 38%;
+      left: 50%;
       margin: -57px 0 0 -304px;
+    }
+
+    section a {
+      display: block;
+      position: absolute;
+      top: 52%;
+      left: 50%;
+      margin: -40px 0 0 -170px;
     }
   </style>
 </head>
@@ -41,7 +49,8 @@
     <img src="title.svg"/>
   </header>
   <section>
-    <img src="upcoming.svg"/>
+    <img src="upcoming.svg" id="upcoming"/>
+    <a href="https://umq.qc.ca/dossiers/jeunesse-et-releve-municipale/outil-jeunesse/"><img src="lancement.svg"/></a>
   </section>
 </body>
 </html>
